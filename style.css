@@ -130,8 +130,11 @@ button:hover:after {
     transform: scale(1);
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   img {
     width: 100%;
+  }
+  body {
+    margin: 0;
   }
 }
