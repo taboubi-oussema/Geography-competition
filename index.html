@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="alert hidden_1">
+        <div class="box">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="80"
+            width="100"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="#00a803"
+              d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+            />
+          </svg>
+          <p><span style="font-size: 40px">Good job!</span></p>
+          <p>Your answer is correct!</p>
+          <button class="btn" onclick="closee('.hidden_1')">Ok</button>
+        </div>
+      </div>
+      <div class="alert hidden_2">
+        <div class="box">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="80"
+            width="100"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="red"
+              d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
+            />
+          </svg>
+          <p><span style="font-size: 40px">Something Wrong!</span></p>
+          <p>Please complete each question.!</p>
+          <button class="btn" onclick="closee('.hidden_2')">Ok</button>
+        </div>
+      </div>
+      <div class="alert hidden_3">
+        <div class="box">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="80"
+            width="100"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="red"
+              d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
+            />
+          </svg>
+          <p><span style="font-size: 40px">Oops...!</span></p>
+          <p>
+            It appears that your knowledge of geography is not as strong as
+            mine.!
+          </p>
+          <button class="btn" onclick="closee('.hidden_3')">Ok</button>
+        </div>
+      </div>
+      <header>
+        <center><h1>Geography competition</h1></center>
+      </header>
+      <div class="wrap">
+        <ol>
+          <li>
+            <select name="" id="country_1">
+              <option value="">...</option>
+
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Azerbaidjan">Azerbaidjan</option>
+              <option value="Kirghizistan">Kirghizistan</option>
+              <option value="Padistan">Padistan</option>
+              <option value="Tadjikistan">Tadjikistan</option>
+              <option value="Turkménistan">Turkménistan</option>
+              <option value="Ousbékistan">Ousbékistan</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="country_2">
+              <option value="">...</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Azerbaidjan">Azerbaidjan</option>
+              <option value="Kirghizistan">Kirghizistan</option>
+              <option value="Padistan">Padistan</option>
+              <option value="Tadjikistan">Tadjikistan</option>
+              <option value="Turkménistan">Turkménistan</option>
+              <option value="Ousbékistan">Ousbékistan</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="country_3">
+              <option value="">...</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Azerbaidjan">Azerbaidjan</option>
+              <option value="Kirghizistan">Kirghizistan</option>
+              <option value="Padistan">Padistan</option>
+              <option value="Tadjikistan">Tadjikistan</option>
+              <option value="Turkménistan">Turkménistan</option>
+              <option value="Ousbékistan">Ousbékistan</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="country_4">
+              <option value="">...</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Azerbaidjan">Azerbaidjan</option>
+              <option value="Kirghizistan">Kirghizistan</option>
+              <option value="Padistan">Padistan</option>
+              <option value="Tadjikistan">Tadjikistan</option>
+              <option value="Turkménistan">Turkménistan</option>
+              <option value="Ousbékistan">Ousbékistan</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="country_5">
+              <option value="">...</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Azerbaidjan">Azerbaidjan</option>
+              <option value="Kirghizistan">Kirghizistan</option>
+              <option value="Padistan">Padistan</option>
+              <option value="Tadjikistan">Tadjikistan</option>
+              <option value="Turkménistan">Turkménistan</option>
+              <option value="Ousbékistan">Ousbékistan</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="country_6">
+              <option value="">...</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Azerbaidjan">Azerbaidjan</option>
+              <option value="Kirghizistan">Kirghizistan</option>
+              <option value="Padistan">Padistan</option>
+              <option value="Tadjikistan">Tadjikistan</option>
+              <option value="Turkménistan">Turkménistan</option>
+              <option value="Ousbékistan">Ousbékistan</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="country_7">
+              <option value="">...</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Azerbaidjan">Azerbaidjan</option>
+              <option value="Kirghizistan">Kirghizistan</option>
+              <option value="Padistan">Padistan</option>
+              <option value="Tadjikistan">Tadjikistan</option>
+              <option value="Turkménistan">Turkménistan</option>
+              <option value="Ousbékistan">Ousbékistan</option>
+            </select>
+          </li>
+        </ol>
+        <img
+          src="434153209_2018035215265406_3208290819479969294_n.jpg"
+          alt=""
+        />
+      </div>
+      <footer>
+        <center>
+          <button class="btn" id="btn">Verify</button>
+          <button class="btn Cheat" id="Cheat">Cheat</button>
+        </center>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
